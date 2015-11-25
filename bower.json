@@ -1,0 +1,17 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sharpred/boilerPlate",
+  "authors": [
+    "Paul Ryan <paul.ryan@stepupsoftware.co.uk>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
