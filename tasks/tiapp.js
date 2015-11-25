@@ -10,6 +10,7 @@ module.exports = function(grunt) {
             _ = require("../lib/underscoremixin");
         options = this.options();
         grunt.config.set("app_id", options.id);
+        grunt.log.ok("running tiapp");
         tiapp = require('tiapp.xml').load(tiappPath);
         packageData = grunt.file.readJSON(packagePath);
         version = packageData.version.split(".");

@@ -7,6 +7,7 @@
   ],
   "license": "MIT",
   "private": true,
+  "dependencies": {"widgets": "git@bitbucket.org:jeffatstepup/stopadvisermobileapp.git#84f9adbc9957470243cc3ffb6c2df51a4cf37b88"},
   "ignore": [
     "**/.*",
     "node_modules",
