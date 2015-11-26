@@ -5,5 +5,5 @@ module.exports = function(grunt) {
     grunt.loadTasks('tasks');
     //loads and registers all the dependency tasks
     grunt.task.run('init');
-    grunt.registerTask('default', ['tiapp', 'bowercopy']);
+    grunt.registerTask('default', ['tiapp', 'bowercopy', 'configjson']);
 };
