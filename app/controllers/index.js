@@ -1,3 +1,4 @@
-$.uuid.title = Ti.App.Properties.getString('guid');
-$.appname.title = Ti.App.Properties.getString('name');
+$.guid.text = Ti.App.guid;
+$.appid.text = Ti.App.id;
+$.appname.text = Ti.App.name;
 $.index.open();

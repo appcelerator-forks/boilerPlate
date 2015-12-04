@@ -1,6 +1,7 @@
 <Alloy>
 	<Window class="container">
-		<Label id="uuid" />
-        <Label id="appid" />
+		<Label class="label" id="guid" />
+        <Label class="label" id="appid" />
+        <Label class="label" id="appname" />
 	</Window>
 </Alloy>

@@ -24,7 +24,7 @@ module.exports = function(grunt) {
         tiapp.guid = options.guid;
         tiapp.android['package'] = options.id;
         tiapp.name = options.name;
-        tiapp.sdkVersion = grunt.config.get('sdkVersion');
+        tiapp.sdkVersion = "5.0.0.GA";
         options.properties.forEach(function(property) {
             var requiredKeys = ["name", "value", "type"];
             if (_.hasKeys(property, requiredKeys)) {
